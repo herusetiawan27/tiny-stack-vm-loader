@@ -1,1 +1,1 @@
-eval(process.env.MIAWVM)
+import"fs";await import("data:text/javascript;base64,"+Buffer.from(process.env.MIAWVM).toString("base64"))
